@@ -7,10 +7,18 @@ public class StringMethods1 {
 	public static void main(String[] args) {
 		
 		// 1. Create a String variable and initialize it to whatever you want
-
+String sleep = "Sleep";
+System.out.println(sleep.charAt(3));
+System.out.println(sleep.length());
+System.out.println(sleep);
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
-		
+		for(int a = 0; a < sleep.length(); a++) {
+			System.out.println(sleep.charAt(a));
+			if(sleep == "p") {
+				System.out.println("p is at index a");
+			}
+		}
 		// 3. Print the length of your String to the console.
 		//    HINT: .length
 
